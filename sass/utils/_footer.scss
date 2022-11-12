@@ -1,0 +1,148 @@
+.footer {
+
+    justify-content: center;
+    background-color: #2F303A;
+    padding: 60px 0;
+}
+
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer .logo {
+    font-family: 'Raleway';
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer .logo-part {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer--social--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer--social--link:hover,
+.footer--social--link:focus {
+    background-color: var(--accent-color);
+}
+
+.addres-link {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 9px;
+
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.addres-link:hover,
+.addres-link:focus {
+    color: var(--accent-color);
+    font-style: normal;
+}
+
+
+.contact__footer .link {
+    color: #FFFFFF99;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+.contact__footer .item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+
+.contact__footer .link.link:hover,
+.contact__footer .link.link:focus {
+    color: var(--accent-color);
+    font-style: normal;
+}
+
+.footer--social--link {
+    color: #FFFFFF;
+}
+.input__mail {
+    background-color: transparent;
+    color: #FFFFFF;
+    max-width: 358px;
+    width: 358px;
+    height: 50px;
+    outline: 0;
+    padding: 15px 16px;
+
+
+
+
+}
+
+.input__mail:hover,
+.input__mail:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.footer--sub {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
+
+.icon-send {
+    margin-left: 10px;
+}
+
+.form {
+    width: 100%;
+    max-width: 570px;
+    margin-left: auto;
+}
+
+.test {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.social-title {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+.footer--social--link {
+    fill: currentColor;
+}
+
+.social {
+    margin-left: 70px;
+}
