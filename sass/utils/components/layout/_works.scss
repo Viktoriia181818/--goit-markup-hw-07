@@ -1,10 +1,10 @@
-.work {
+.section-work {
     display: flex;
     justify-content: center;
 }
+ 
 
-
-.work .item:not(:last-child) {
+.section-work .section-work__item--work:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -20,11 +20,11 @@
     display: block;
 }
 
-.item {
+.section-work__item--work {
     position: relative;
 }
 
-.about-text {
+.work--text {
     position: absolute;
     left: 0;
     bottom: 0;
