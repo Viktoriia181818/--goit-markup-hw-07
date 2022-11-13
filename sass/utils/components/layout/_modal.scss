@@ -1,4 +1,4 @@
-.modal {
+.modal-social {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -16,7 +16,7 @@
 }
 
 
-.modal__window {
+.modal-social__window {
     position: absolute;
     padding: 40px;
     display: flex;
@@ -32,11 +32,11 @@
 
 }
 
-.specials {
+.modal-social__specials--form {
     display: block;
 }
 
-.modal--input {
+.modal-social__modal--input {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 10px 42px;
@@ -50,7 +50,7 @@
     margin-bottom: 10px;
 }
 
-.privacy {
+.modal-social__privacy--modal {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
@@ -60,15 +60,15 @@
     text-align: center;
 }
 
-.privacy label {
+.modal-social__privacy--modal label {
     position: relative;
 }
 
-.privacy input {
+.modal-social__privacy--modal input {
     display: none;
 }
 
-.privacy label::before {
+.modal-social__privacy--modal label::before {
     /* position: absolute; */
     cursor: pointer;
     display: inline-block;
@@ -105,7 +105,7 @@
     border: 1px solid var(--accent-color);
 }
 
-.modal--input {
+.modal-social__modal--input {
     padding: 12px 30px;
     width: 100%;
     height: 40px;
@@ -116,24 +116,24 @@
 
 
 
-.modal--input:focus {
+.modal-social__modal--input:focus {
     outline: transparent;
 }
 
-.modal--input:hover,
+.modal-social__modal--input:hover,
 .modal--input:focus {
     border: 1px solid #2196F3;
 }
 
-.modal--input:focus+svg {
+.modal-social__modal--input:focus+svg {
     fill: #2196F3;
 }
 
-.modal--input:hover+svg {
+.modal-social__modal--input:hover+svg {
     fill: #2196F3;
 }
 
-.privacy input:checked+label::before {
+.modal-social__privacy--modal input:checked+label::before {
     background-image: url(../images/checkbox.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -141,7 +141,7 @@
     border: var(--accent-color);
 }
 
-.support {
+.modal-social__support--modal {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -162,7 +162,7 @@
     border-radius: 4px;
 }
 
-.textarea {
+.modal-social__modal--textarea {
     resize: none;
     font-size: 12px;
     line-height: 1.1666;
@@ -178,8 +178,8 @@
     outline: 0;
 }
 
-.textarea:hover,
-.textarea:focus {
+.modal-social__modal--textarea:hover,
+.modal-social__modal--textarea:focus {
     border-color: var(--accent-color);
 }
 
@@ -192,7 +192,7 @@
     color: #757575;
 }
 
-.link-modal {
+.modal-social__link--modal {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -215,7 +215,7 @@
 
 
 
-.modal-label {
+.modal-social__modal--label {
     color: #757575;
     position: relative;
     margin-bottom: 2px;
@@ -232,7 +232,7 @@
     fill: var(--accent-color);
 }
 
-.icon--form {
+.modal-social__icon--form {
     margin-left: 5px;
     position: absolute;
     z-index: 50;
@@ -240,13 +240,13 @@
     left: 6px;
 }
 
-.icon--form:hover {
+.modal-social__icon--form:hover {
     fill: var(--accent-color);
 }
 
 
 
-.label-name {
+.modal-social__label--name {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
