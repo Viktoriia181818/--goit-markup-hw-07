@@ -1,11 +1,11 @@
-.site--nav {
+.site-nav {
     margin-left: 93px;
     gap: 50px;
 }
 
 
 
-.link.current::after {
+.site-nav__item.current::after {
     position: absolute;
     content: "";
     display: block;
@@ -19,7 +19,7 @@
 
 
 
-.site--nav .link {
+.site-nav .site-nav__item {
     position: relative;
     color: var(--title-text-color);
     padding-top: 32px;
@@ -34,12 +34,12 @@
 }
 
 
-.site--nav .link:hover,
-.site--nav .link:focus {
+.site-nav .site-nav__item:hover,
+.site-nav .site-nav__item:focus {
     color: var(--accent-color);
 }
 
-.site--nav .link.current {
+.site-nav .site-nav__item.current {
     color: var(--accent-color);
 
 }

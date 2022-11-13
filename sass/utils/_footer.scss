@@ -106,11 +106,12 @@
 }
 
 .footer--sub {
-    margin-bottom: 20px;
+margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1428;
-    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    letter-spacing: .03em;
     color: var(--primary-white-color);
 }
 
@@ -133,7 +134,7 @@
 .social-title {
     margin-bottom: 20px;
     color: #FFFFFF;
-
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
