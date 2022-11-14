@@ -48,6 +48,9 @@
     fill: currentColor;
     width: 100%;
     margin-bottom: 10px;
+   & .modal-social__icon--form:hover {
+            fill: var(--accent-color);
+        }
 }
 
 .modal-social__privacy--modal {
@@ -100,10 +103,7 @@
 
 }
 
-.input__mail:hover,
-.input__mail:focus {
-    border: 1px solid var(--accent-color);
-}
+
 
 .modal-social__modal--input {
     padding: 12px 30px;
@@ -112,26 +112,28 @@
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+                &:focus {
+                    outline: transparent;
+                 }
+                &:hover,
+                &:focus {
+                    border: 1px solid #2196F3;
+                }
+        
+                &:focus+svg {
+                    fill: #2196F3;
+                }
+        
+                &:hover+svg {
+                    fill: #2196F3;
+                }
 }
 
 
 
-.modal-social__modal--input:focus {
-    outline: transparent;
-}
 
-.modal-social__modal--input:hover,
-.modal--input:focus {
-    border: 1px solid #2196F3;
-}
 
-.modal-social__modal--input:focus+svg {
-    fill: #2196F3;
-}
 
-.modal-social__modal--input:hover+svg {
-    fill: #2196F3;
-}
 
 .modal-social__privacy--modal input:checked+label::before {
     background-image: url(../images/checkbox.svg);
@@ -176,12 +178,13 @@
     border-radius: 4px;
     padding: 12px 16px;
     outline: 0;
+    &:hover,
+    &:focus {
+    border-color: var(--accent-color);
+        }
 }
 
-.modal-social__modal--textarea:hover,
-.modal-social__modal--textarea:focus {
-    border-color: var(--accent-color);
-}
+
 
 .modal-text {
     margin-top: 20px;
@@ -226,11 +229,7 @@
 }
 
 
-.icon--close:hover,
-.icon--close:focus {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: var(--accent-color);
-}
+
 
 .modal-social__icon--form {
     margin-left: 5px;
@@ -240,9 +239,6 @@
     left: 6px;
 }
 
-.modal-social__icon--form:hover {
-    fill: var(--accent-color);
-}
 
 
 
